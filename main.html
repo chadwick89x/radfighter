@@ -1,13 +1,28 @@
-<!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>jQuery Street Fighter</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
-</body>
-</html>
+	<div class="main">
+		<div class="ryu">
+			<div class="ryu-still" style="display: block;"></div>
+			<div class="ryu-ready" style="display: none;"></div>
+			<div class="ryu-throwing" style="display: none;"></div>
+			<div class="ryu-cool" style="display: none;"></div>
+		</div>		
+		<div class="hadouken" style="display: none; left: -140px;"></div>
+
+		<div class="content-wrapper">
+			<div id="instruction">
+				<p>1. Click on Ryu to make him throw a Hadouken.</p>
+				<p>2. Hold down the "x" key to see his cool side!</p>
+			</div>
+		</div>
+	</div>	
+	<audio id="hadouken-sound" src="sound/hadouken.mp3">
+
+</audio></body></html>
